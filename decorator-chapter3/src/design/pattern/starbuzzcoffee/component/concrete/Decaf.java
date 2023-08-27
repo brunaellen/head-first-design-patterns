@@ -1,0 +1,14 @@
+package design.pattern.starbuzzcoffee.component.concrete;
+
+import design.pattern.starbuzzcoffee.component.Beverage;
+
+public class Decaf extends Beverage {
+  public Decaf() {
+    description = "Decaf Coffee";
+  }
+
+  @Override
+  public double cost() {
+    return 1.05;
+  }
+}
